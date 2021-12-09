@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Linkedin</title>
+    <link rel="shortcut icon" href="https://static-exp1.licdn.com/sc/h/1bt1uwq5akv756knzdj4l6cdc" id="favicon-ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="header" >
+            <div class="header-holder">
+                <div class="right-head">
+                    <div class="logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" class="global-nav__logo">
+                            <title>
+                              LinkedIn
+                            </title>
+                      
+                            <g>
+                              <path d="M34,2.5v29A2.5,2.5,0,0,1,31.5,34H2.5A2.5,2.5,0,0,1,0,31.5V2.5A2.5,2.5,0,0,1,2.5,0h29A2.5,2.5,0,0,1,34,2.5ZM10,13H5V29h5Zm.45-5.5A2.88,2.88,0,0,0,7.59,4.6H7.5a2.9,2.9,0,0,0,0,5.8h0a2.88,2.88,0,0,0,2.95-2.81ZM29,19.28c0-4.81-3.06-6.68-6.1-6.68a5.7,5.7,0,0,0-5.06,2.58H17.7V13H13V29h5V20.49a3.32,3.32,0,0,1,3-3.58h.19c1.59,0,2.77,1,2.77,3.52V29h5Z" fill="currentColor"></path>
+                            </g>
+                          </svg>
+                    </div>
+                    <div class="search-holder">
+                        <div class="search">
+                            <div class="search-logo">
+                            <li-icon aria-hidden="true" type="search-icon" class="search-global-typeahead__search-icon" size="small" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false" style="user-select: auto;">
+                                <path d="M14.56 12.44L11.3 9.18a5.51 5.51 0 10-2.12 2.12l3.26 3.26a1.5 1.5 0 102.12-2.12zM3 6.5A3.5 3.5 0 116.5 10 3.5 3.5 0 013 6.5z" style="user-select: auto;"></path>
+                              </svg></li-icon>
+                        </div>
+                        <div class="search-text">
+                            <input type="text" placeholder="Search">
+                        </div>
+                        </div>                       
+                    </div>
+                </div>
+                <div class="left-head">
+                    <div class="icon-holder" >
+                        
+                        <div class="icon">
+                            <div class="icon-logo">
+                                <img src="images/nav-home.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="icon-name" style="border-bottom: 3px solid black; height: 18px;"> 
+                            <p>Home</p>
+                        </div>
+                    </div>
+                    <div class="icon-holder">
+                        <div class="icon">
+                            <div class="icon-logo">
+                                <img src="images/nav-network.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="icon-name">
+                            <p>My Network</p>
+                        </div>
+                    </div>
+                    <div class="icon-holder">
+                        <div class="icon">
+                            <div class="icon-logo">
+                                <img src="images/nav-jobs.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="icon-name">
+                            <p>Jobs</p>
+                        </div>
+                    </div>
+                    <div class="icon-holder">
+                        <div class="icon">
+                            <div class="icon-logo">
+                                <img src="images/nav-messaging.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="icon-name">
+                            <p>Messaging</p>
+                        </div>
+                    </div>
+                    <div class="icon-holder">
+                        <div class="icon">
+                            <div class="icon-logo">
+                                <img src="images/nav-notifications.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="icon-name">
+                            <p>Notifications</p>
+                        </div>
+                    </div>
+                    <div class="icon-holder">
+                        <div class="icon">
+                            <div class="icon-logo">
+                                <img src="images/Cr7.jpg" style="border-radius: 50%;" alt="">
+                            </div>
+                        </div>
+                        <div class="icon-name" >
+                            <p>Me <img src="images/down-icon.svg" alt="" style="height: 10px; width: 12px;"></p>
+                        </div>
+                    </div>
+                    <div class="icon-holder" style="border-left: #F3F2EF solid 1px;">
+                        <div class="icon">
+                            <div class="icon-logo">
+                                <img src="images/nav-work.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="icon-name">
+                            <p>Work <img src="images/down-icon.svg" alt="" style="height: 10px; width: 12px;"></p>
+                        </div>
+                    </div>
+                    <div class="icon-holder" style="width: 100px;justify-content: center; ">
+                        <div class="icon-link icon-name" style="width: fit-content; margin: 6px 0px; text-align: center; line-height: 1.6em;">
+                            <a href="https://www.linkedin.com/premium/products/?upsellOrderOrigin=premium_nav_upsell_text&amp;destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F%3FshowPremiumWelcomeBanner%3Dtrue" class="link-without-visited-state global-nav__primary-link global-nav__primary-link--premium global-nav__spotlight-upsell" style="user-select: auto; color: #9e592d; text-decoration: none; ">
+                                Try Premium for free
+                            </a>
+
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="body" >
+            <div class="body-holder">
+                <div class="left-body">
+                    <div class="profile-holder">
+                        <div class="profile-box">
+                            <div style="height:35%;">
+                                <img style="border-top-left-radius: 3%; border-top-right-radius: 3%; width: 100%;" src="images/card-bg.svg" alt="">
+                            </div>
+                            <div style="height: 42px;z-index:1;">
+                                <img style="cursor: pointer;margin:-40px 77px 0px;height:72px;width: 72px;border-radius: 50%; ;" src="images/Cr7.jpg" alt="">
+                            </div>
+                            <div style="padding :13px 0px; text-align: center;">
+                                <a style="text-decoration: none;" href=""><p class="h-profile">C.Ronaldo</p></a>
+                                <p style="font-size: 12px; font-weight: 400;margin-top: 3px; color: #666666;">protugal player</p>
+                            </div>
+                        </div>
+                        <div class="other-than-profile">
+                            <div class="OTP-holder">
+                                <p style="color: #666666">Connections</p>
+                                <p>Grow your network</p>
+                            </div>
+                        </div>
+                        <div class="other-than-profile">
+                            <div class="OTP-holder" >
+                                <p style="color: #666666">Access exclusive tools & insights</p>
+                                <p><li-icon aria-hidden="true" type="premium-app-icon" class="feed-identity-module__premium-icon mr1 flex-shrink-zero"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 16" data-supported-dps="16x16" class="mercado-match" width="16" height="16" focusable="false">
+                                    <path d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z" fill="#f8c77e"></path>
+                                    <path d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z" fill="#e7a33e"></path>
+                                  </svg>
+                                </li-icon>Try premium for free</p>
+                                
+                            </div>
+                        </div>
+                        <div class="other-than-profile">
+                            <div class="OTP-holder" style="padding: 10px 0px;">
+                                <p><li-icon aria-hidden="true" type="ribbon-filled-icon" class="t-black--light v-align-middle mr1" size="small"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" width="16" height="16" color="#666666" focusable="false">
+                                    <path d="M12 1H4a1 1 0 00-1 1v13.64l5-3.36 5 3.36V2a1 1 0 00-1-1z"></path>
+                                  </svg></li-icon>My items</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="discover-holder">
+                        <div class="sticky">
+
+                       
+                        <div class="other-than-discover">
+                          <div class="column">
+                            <div class="column-text">
+                                  <p style="width: fit-content;"><strong>Groups</strong></p>
+                              </div>
+                        </div>
+                        <div class="column">
+                            <div class="column-text">                               
+                                <p style="width: fit-content;"><strong>Events</strong></p>
+                            </div>
+                            <div class="column-logo">
+                                <li-icon aria-hidden="true" type="plus-icon" class="artdeco-button__icon" size="small" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false" style="user-select: auto;">
+                                    <path d="M14 9H9v5H7V9H2V7h5V2h2v5h5z" style="user-select: auto;"></path>
+                                  </svg></li-icon>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="column-text">                               
+                                <p style="width: fit-content;"><strong>Followed Hashtags</strong></p>
+                            </div>
+                        </div>  
+                        </div> 
+                        <div class="discover">
+                            <div class="discover-text">
+                                <p><strong>Discover More</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="center-body">
+                    <div class="create-post-holder">
+                        <div class="create-post">
+                            <div class="cp-profile">
+                                <img style="margin: 8px; height: 48px; width: 48px; border-radius: 50%; user-select: auto;" src="images/Cr7.jpg" alt="">
+                            </div>
+                            <div class="create">
+                                <input type="text" placeholder="Start a post">
+
+                            </div>
+                        </div>
+                        <div class="other-than-create">
+                            <div class="create-icon-holder">
+                                <div class="cih-logo">
+                                    <li-icon aria-hidden="true" type="image-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" color="#70B5F9" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="cih-name">
+                                    <p>Photo</p>
+                                </div>
+                            </div>
+                            <div class="create-icon-holder">
+                                <div class="cih-logo">
+                                    <li-icon aria-hidden="true"  type="video-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" color="#7FC15E" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="cih-name">
+                                    <p>Video</p>
+                                </div>
+                            </div>
+                            <div class="create-icon-holder">
+                                <div class="cih-logo">
+                                    <li-icon aria-hidden="true" type="calendar-icon" size="medium" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" color="#E7A33E" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="cih-name">
+                                    <p>Events</p>
+                                </div>
+                            </div>
+                            <div class="create-icon-holder">
+                                <div class="cih-logo">
+                                    <li-icon aria-hidden="true" type="content-left-align-icon" size="medium" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" color="#FA9195"width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="cih-name">
+                                    <p>Write Article</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="sort-holder ">
+                        <div class="sort-hr">
+                          <hr>
+                        </div>
+                          <div class="sort">
+                            <p>Sort by:</p>
+                            <p >Top</p>
+                            <li-icon type="caret-filled-down-icon" class="t-black" size="small" role="img" aria-label="Sort order dropdown button" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false" style="user-select: auto;">
+                <path d="M8 11L3 6h10z" fill-rule="evenodd" style="user-select: auto;"></path>
+              </svg></li-icon>
+                          
+                        
+                        </div>
+                    </div>
+                    <div class="feed-holder ">
+                        <div class="feed-profile-holder">
+                            <div class="feed-profile">
+                                <div class="feed-profile-image">
+                                    <img src="images/Cr7.jpg" alt="">
+                                </div>
+                                <div class="feed-profile-name" >
+                                    <p class="h-profile">C.Ronaldo</p>
+                                    <p style="margin-top: 4px;font-weight: 400; color: #666666 ;font-size: 12px;"> Portugese Player</p>
+                                    <div style="display: flex;margin-top: 5px">
+                                    <p style="margin: 2px 5px 0px  0px;font-weight: 400; color: #666666 ;font-size: 12px;">1 w 
+                                        <img style="width: 4px;" src="images/circle_black_24dp.svg" alt="">
+                                    </p>
+                                        <li-icon style="margin-top: 1px;" aria-hidden="true" type="globe-icon" class="v-align-bottom" size="small" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false" style="user-select: auto;">
+                                            <path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z" style="user-select: auto;"></path>
+                                          </svg></li-icon> 
+                                    </div>    
+                                </div>
+
+                            </div>
+                            <div class="feed-option">
+                                <li-icon type="ellipsis-horizontal-icon" class="artdeco-button__icon" role="img" aria-label="Open control menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                    <path d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"></path>
+                                  </svg></li-icon>
+                            </div>
+                        </div>
+                        <div class="feed-image-holder">
+                            <img src="https://source.unsplash.com/random/500x500"/>
+                        </div>
+                        <div class="feed-tools">
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="like-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Like</p>
+                                </div>
+                            </div>
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="speech-bubble-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Comments</p>
+                                </div>
+                            </div>
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="share-linkedin-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Share</p>
+                                </div>
+                            </div>
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="send-privately-icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Send</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feed-holder ">
+                        <div class="feed-profile-holder">
+                            <div class="feed-profile">
+                                <div class="feed-profile-image">
+                                    <img src="images/Cr7.jpg" alt="">
+                                </div>
+                                <div class="feed-profile-name" >
+                                    <p class="h-profile">C.Ronaldo</p>
+                                    <p style="margin-top: 4px;font-weight: 400; color: #666666 ;font-size: 12px;"> Portugese Player</p>
+                                    <div style="display: flex;margin-top: 5px">
+                                    <p style="margin: 2px 5px 0px  0px;font-weight: 400; color: #666666 ;font-size: 12px;">1 w 
+                                        <img style="width: 4px;" src="images/circle_black_24dp.svg" alt="">
+                                    </p>
+                                        <li-icon style="margin-top: 1px;" aria-hidden="true" type="globe-icon" class="v-align-bottom" size="small" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false" style="user-select: auto;">
+                                            <path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z" style="user-select: auto;"></path>
+                                          </svg></li-icon> 
+                                    </div>    
+                                </div>
+
+                            </div>
+                            <div class="feed-option">
+                                <li-icon type="ellipsis-horizontal-icon" class="artdeco-button__icon" role="img" aria-label="Open control menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                    <path d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"></path>
+                                  </svg></li-icon>
+                            </div>
+                        </div>
+                        <div class="feed-image-holder">
+                            <img src="https://source.unsplash.com/random/500x500"/>
+                        </div>
+                        <div class="feed-tools">
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="like-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Like</p>
+                                </div>
+                            </div>
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="speech-bubble-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Comments</p>
+                                </div>
+                            </div>
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="share-linkedin-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Share</p>
+                                </div>
+                            </div>
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="send-privately-icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Send</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feed-holder ">
+                        <div class="feed-profile-holder">
+                            <div class="feed-profile">
+                                <div class="feed-profile-image">
+                                    <img src="images/Cr7.jpg" alt="">
+                                </div>
+                                <div class="feed-profile-name" >
+                                    <p class="h-profile">C.Ronaldo</p>
+                                    <p style="margin-top: 4px;font-weight: 400; color: #666666 ;font-size: 12px;"> Portugese Player</p>
+                                    <div style="display: flex;margin-top: 5px">
+                                    <p style="margin: 2px 5px 0px  0px;font-weight: 400; color: #666666 ;font-size: 12px;">1 w 
+                                        <img style="width: 4px;" src="images/circle_black_24dp.svg" alt="">
+                                    </p>
+                                        <li-icon style="margin-top: 1px;" aria-hidden="true" type="globe-icon" class="v-align-bottom" size="small" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false" style="user-select: auto;">
+                                            <path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z" style="user-select: auto;"></path>
+                                          </svg></li-icon> 
+                                    </div>    
+                                </div>
+
+                            </div>
+                            <div class="feed-option">
+                                <li-icon type="ellipsis-horizontal-icon" class="artdeco-button__icon" role="img" aria-label="Open control menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                    <path d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"></path>
+                                  </svg></li-icon>
+                            </div>
+                        </div>
+                        <div class="feed-image-holder">
+                            <img src="https://source.unsplash.com/random/500x500"/>
+                        </div>
+                        <div class="feed-tools">
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="like-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Like</p>
+                                </div>
+                            </div>
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="speech-bubble-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Comments</p>
+                                </div>
+                            </div>
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="share-linkedin-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Share</p>
+                                </div>
+                            </div>
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="send-privately-icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Send</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feed-holder ">
+                        <div class="feed-profile-holder">
+                            <div class="feed-profile">
+                                <div class="feed-profile-image">
+                                    <img src="images/Cr7.jpg" alt="">
+                                </div>
+                                <div class="feed-profile-name" >
+                                    <p class="h-profile">C.Ronaldo</p>
+                                    <p style="margin-top: 4px;font-weight: 400; color: #666666 ;font-size: 12px;"> Portugese Player</p>
+                                    <div style="display: flex;margin-top: 5px">
+                                    <p style="margin: 2px 5px 0px  0px;font-weight: 400; color: #666666 ;font-size: 12px;">1 w 
+                                        <img style="width: 4px;" src="images/circle_black_24dp.svg" alt="">
+                                    </p>
+                                        <li-icon style="margin-top: 1px;" aria-hidden="true" type="globe-icon" class="v-align-bottom" size="small" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false" style="user-select: auto;">
+                                            <path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z" style="user-select: auto;"></path>
+                                          </svg></li-icon> 
+                                    </div>    
+                                </div>
+
+                            </div>
+                            <div class="feed-option">
+                                <li-icon type="ellipsis-horizontal-icon" class="artdeco-button__icon" role="img" aria-label="Open control menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                    <path d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"></path>
+                                  </svg></li-icon>
+                            </div>
+                        </div>
+                        <div class="feed-image-holder">
+                            <img src="https://source.unsplash.com/random/500x500"/>
+                        </div>
+                        <div class="feed-tools">
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="like-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Like</p>
+                                </div>
+                            </div>
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="speech-bubble-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Comments</p>
+                                </div>
+                            </div>
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="share-linkedin-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Share</p>
+                                </div>
+                            </div>
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="send-privately-icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Send</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feed-holder ">
+                        <div class="feed-profile-holder">
+                            <div class="feed-profile">
+                                <div class="feed-profile-image">
+                                    <img src="images/Cr7.jpg" alt="">
+                                </div>
+                                <div class="feed-profile-name" >
+                                    <p class="h-profile">C.Ronaldo</p>
+                                    <p style="margin-top: 4px;font-weight: 400; color: #666666 ;font-size: 12px;"> Portugese Player</p>
+                                    <div style="display: flex;margin-top: 5px">
+                                    <p style="margin: 2px 5px 0px  0px;font-weight: 400; color: #666666 ;font-size: 12px;">1 w 
+                                        <img style="width: 4px;" src="images/circle_black_24dp.svg" alt="">
+                                    </p>
+                                        <li-icon style="margin-top: 1px;" aria-hidden="true" type="globe-icon" class="v-align-bottom" size="small" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false" style="user-select: auto;">
+                                            <path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z" style="user-select: auto;"></path>
+                                          </svg></li-icon> 
+                                    </div>    
+                                </div>
+
+                            </div>
+                            <div class="feed-option">
+                                <li-icon type="ellipsis-horizontal-icon" class="artdeco-button__icon" role="img" aria-label="Open control menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                    <path d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"></path>
+                                  </svg></li-icon>
+                            </div>
+                        </div>
+                        <div class="feed-image-holder">
+                            <img src="https://source.unsplash.com/random/500x500"/>
+                        </div>
+                        <div class="feed-tools">
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="like-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Like</p>
+                                </div>
+                            </div>
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="speech-bubble-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Comments</p>
+                                </div>
+                            </div>
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="share-linkedin-icon" class="artdeco-button__icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Share</p>
+                                </div>
+                            </div>
+                            <div class="tools">
+                                <div class="tools-log">
+                                    <li-icon aria-hidden="true" type="send-privately-icon" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="user-select: auto;">
+                                        <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                                <div class="tools-name">
+                                    <p>Send</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-body">
+                    <div class="news-holder">
+                        <div class="news">
+                            <div class="column-head">
+                                <div class="column-text">
+                                    <p style="width: fit-content;"><strong>LinkedIn News</strong></p>
+                                </div>
+                                <div class="column-logo">
+                                    <li-icon type="notify-pebble-icon" class="news-module__notify-icon t-black" size="small" role="img" aria-label="These are the day’s top professional news stories and conversations." style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false" style="user-select: auto;">
+                                        <path d="M12 2H4a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2zm-3 8v2H7.5A1.5 1.5 0 016 10.5a1.56 1.56 0 01.1-.5l1.08-3h2.13l-1.09 3zm0-3.75A1.25 1.25 0 1110.25 5 1.25 1.25 0 019 6.25z" style="user-select: auto;"></path>
+                                      </svg></li-icon>
+                                </div>
+                            </div>
+                        
+                        <div class="column-news">
+                            <div class="news-text">                               
+                                <img src="images/circle_black_24dp.svg" alt="">
+                                <p">
+                                    <strong>The 'new normal' for job interviews</strong></p>
+                                <p style="margin-left: 24px; font-weight: 200;">22h ago - 2,224 readers</p>
+                            </div>
+                        </div> 
+                        <div class="column-news">
+                            <div class="news-text">                               
+                                <img src="images/circle_black_24dp.svg" alt="">
+                                <p">
+                                    <strong>The 'new normal' for job interviews</strong></p>
+                                <p style="margin-left: 24px; font-weight: 200;">22h ago - 2,224 readers</p>
+                            </div>
+                        </div>  
+                        <div class="column-news">
+                            <div class="news-text">                               
+                                <img src="images/circle_black_24dp.svg" alt="">
+                                <p">
+                                    <strong>The 'new normal' for job interviews</strong></p>
+                                <p style="margin-left: 24px; font-weight: 200;">22h ago - 2,224 readers</p>
+                            </div>
+                        </div>  
+                        <div class="column-news">
+                            <div class="news-text">                               
+                                <img src="images/circle_black_24dp.svg" alt="">
+                                <p">
+                                    <strong>The 'new normal' for job interviews</strong></p>
+                                <p style="margin-left: 24px; font-weight: 200;">22h ago - 2,224 readers</p>
+                            </div>
+                        </div>  
+                        <div class="column-news">
+                            <div class="news-text">                               
+                                <img src="images/circle_black_24dp.svg" alt="">
+                                <p">
+                                    <strong>The 'new normal' for job interviews</strong></p>
+                                <p style="margin-left: 24px; font-weight: 200;">22h ago - 2,224 readers</p>
+                            </div>
+                        </div>  
+                        <div class="column-news">
+                            <div class="news-text">                               
+                                <img src="images/circle_black_24dp.svg" alt="">
+                                <p">
+                                    <strong>The 'new normal' for job interviews</strong></p>
+                                <p style="margin-left: 24px; font-weight: 200;">22h ago - 2,224 readers</p>
+                            </div>
+                        </div>  
+                        <div class="column-news">
+                            <div class="news-text">                               
+                                <img src="images/circle_black_24dp.svg" alt="">
+                                <p">
+                                    <strong>The 'new normal' for job interviews</strong></p>
+                                <p style="margin-left: 24px; font-weight: 200;">22h ago - 2,224 readers</p>
+                            </div>
+                        </div>   
+                        
+                        </div> 
+                        <div class="news-more">
+                            <div class="show-more" style="display: flex; color: #666666;">
+                                <div>
+                                    <p><strong>Show more</strong></p>
+                                </div>
+                                <div>
+                                    <img src="images/keyboard_arrow_down_black_24dp.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other-than-news">
+                        <div class="advertise-holder">
+                        <img style="margin: 7px;" src="images/promo.png" alt="Advertise on LinkedIn" border="0">
+                    </div>
+                    <div class="others">
+                        <div class="other-text">
+                            <p >About</p>
+                        </div>
+                        <div class="other-text">
+                            <p >Accessibility</p>
+                        </div>
+                        <div class="other-text">
+                            <p >Help Center</p>
+                        </div>
+                    </div>
+                    <div class="others">
+                        <div class="other-text">
+                            <p >Privacy and Terms</p>
+                            <img src="images/keyboard_arrow_down_black_24dp.svg" alt="">
+                        </div>
+                        <div class="other-text">
+                            <p >Add choice</p>
+                        </div>
+                       
+                    </div>
+                    <div class="others">
+                        <div class="other-text">
+                            <p >Advertising</p>
+                        </div>
+                        <div class="other-text">
+                            <p >Business Services</p>
+                            <img src="images/keyboard_arrow_down_black_24dp.svg" alt="">
+                        </div>
+                       
+                    </div>
+                    <div class="others">
+                        <div class="other-text">
+                            <p >Get the linkedin app</p>
+                        </div>
+                        <div class="other-text">
+                            <p >More</p>
+                        </div>
+                        
+                    </div>
+                    <div class="linkedin" style="margin: 20px 0px;">
+                        <li-icon type="linkedin-logo" class="global-footer-compact__linkedin-logo" size="14dp" color="brand" role="img" aria-label="LinkedIn" style="user-select: auto;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 14" data-supported-dps="56x14" fill="currentColor" class="mercado-match" width="56" height="14" color="rgb(9,102,194)" focusable="false" style="user-select: auto;">
+                            <g style="user-select: auto;">
+                              <path class="background-mercado" d="M22.1 8.2l3.09 3.8h-2.44L20 8.51V12h-2V2h2v5.88L22.54 5h2.55zm-8-3.4A2.71 2.71 0 0011.89 6V5H10v7h2V8.73a1.74 1.74 0 011.66-1.93C14.82 6.8 15 7.94 15 8.73V12h2V8.29c0-2.2-.73-3.49-2.86-3.49zM32 8.66a4.22 4.22 0 010 .44h-5.25v.07a1.79 1.79 0 001.83 1.43 2.51 2.51 0 001.84-.69l1.33 1a4.31 4.31 0 01-3.25 1.29 3.49 3.49 0 01-3.7-3.75 3.58 3.58 0 013.76-3.65C30.44 4.8 32 6.13 32 8.66zm-1.86-.86a1.46 1.46 0 00-1.59-1.4 1.64 1.64 0 00-1.8 1.4zM2 2H0v10h6v-2H2zm36 0h2v10h-1.89v-.7a2.44 2.44 0 01-2 .9 3.41 3.41 0 01-3.31-3.7 3.36 3.36 0 013.3-3.7 2.62 2.62 0 011.9.7zm.15 6.5a1.63 1.63 0 00-1.62-1.85A1.76 1.76 0 0034.9 8.5a1.76 1.76 0 001.63 1.85 1.63 1.63 0 001.62-1.85zM8 1.8A1.27 1.27 0 006.75 3a1.25 1.25 0 002.5 0A1.27 1.27 0 008 1.8zM7 12h2V5H7zM56 1v12a1 1 0 01-1 1H43a1 1 0 01-1-1V1a1 1 0 011-1h12a1 1 0 011 1zM46 5h-2v7h2zm.25-2a1.25 1.25 0 00-2.5 0 1.25 1.25 0 002.5 0zM54 8.29c0-2.2-.73-3.49-2.86-3.49A2.71 2.71 0 0048.89 6V5H47v7h2V8.73a1.74 1.74 0 011.66-1.93C51.82 6.8 52 7.94 52 8.73V12h2z" style="user-select: auto;"></path>
+                            </g>
+                          </svg></li-icon>
+                          <p style="margin-left: 5px;">LinkedIn Corporation © 2021</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
